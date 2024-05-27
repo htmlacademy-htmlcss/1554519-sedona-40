@@ -2,6 +2,7 @@
 
 * Студент: [Вера Савинова](https://up.htmlacademy.ru/htmlcss/40/user/1554519).
 * Наставник: [Николай Колганов](https://htmlacademy.ru/profile/id794007).
+* Сайт: [Мой проект Седона](https://rododendron24.github.io/1554519-sedona-40/)
 
 ---
 
