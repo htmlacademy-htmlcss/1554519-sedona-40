@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <h1 class="visually-hidden">Город Седона</h1>
       <a class="navigation-logo" href="index.html">
         <img class="logo" src="/pictures/logo.svg" width="140" height="70" alt="Логотип сайта Седона»">
@@ -38,13 +38,13 @@
         </ul>
       </nav>
     </header>
-    <main class="main-index">
-      <section class="main-banner">
+    <main class="main-index" data-test="main">
+      <section class="main-banner" data-test="hero">
         <img class="main-banner" src="/pictures/index-background.svg" width="1200" height="485"
           alt="Главный баннер сайта Седона">
         <section class="lead">
         </section>
-        <section class="lead">
+        <section class="lead" data-test="advantages">
           <h2 class="lead-title">Седона — небольшой городок в Аризоне,<br>
             заслуживающий большего!</h2>
           <p class="lead-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -95,13 +95,13 @@
             </li>
           </ul>
         </section>
-        <section class="booking">
+        <section class="booking" data-test="search">
           <h2 class="booking-title">Заинтересовались?</h2>
           <p class="booking-description">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
             гостиниц в Седоне</p>
           <a class="button booking-button" href="#">Поиск гостиницы в Седоне</a>
         </section>
-        <section class="newsletter">
+        <section class="newsletter" data-test="subscribe">
           <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
           <p class="newsletter-description">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -113,7 +113,7 @@
         </section>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
