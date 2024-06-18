@@ -116,10 +116,7 @@ body {
   margin-bottom: 21px;
   font-family: inherit;
 }
-.advantages-list {
-  list-style-type: none;
-  display: flex;
-}
+
 .advantages-item {
   font-family: inherit;
   color: #000000;
@@ -136,9 +133,9 @@ body {
 .advantages-description {
   font-family: inherit;
 }
-.advantages-list {
-  text-align: center;
-  font-family: inherit;
+.advantages-list-city, .advantages-list-square, .advantages-list-bridge {
+  list-style-type: none;
+  display: flex;
 }
 .advantages-item-city, .advantages-item-bridge {
   font-family: inherit;
