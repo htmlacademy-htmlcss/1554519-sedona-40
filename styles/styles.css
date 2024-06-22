@@ -173,51 +173,32 @@ background-size: cover;
 
 /* Преимущества с картинками */
 .advantages {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 21px;
   font-family: inherit;
-}
-
-/* .advantages-list-city, .advantages-list-bridge {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
+  width: 1200px;
   padding: 0;
-} */
+  margin: 0;
+}
 .advantages-list-city, .advantages-list-bridge {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
+  flex-wrap: wrap;
   padding: 0;
-  text-align: center;
+  margin: 0;
+  width: 1200px;
   list-style-type: none;
 }
+.advantages-item {
+  margin: 0;
+  padding: 0;
+}
+
 .advantages-list-square {
   display: flex;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
   text-align: center;
   list-style-type: none;
 }
-
-.advantages-item {
-  color: #000000;
-  width: 400px;
-  margin: 0;
-}
-.advantages-item-city, .advantages-item-bridge {
-  color: #ffffff;
-  text-align: center;
-  padding-top: 102px;
-  padding-bottom: 102px;
-  padding-left: 85px;
-  padding-right: 85px;
-  margin: 0;
-}
-
 .advantages-item-square, .advantages-item-road, .advantages-item-tourist {
   text-align: center;
   padding-top: 112.5px;
@@ -225,33 +206,58 @@ background-size: cover;
   padding-left: 85px;
   padding-right: 85px;
   margin: 0;
+  width: 400px;
 }
-
-/* ?????  почему надо указывать высоту? */
-.advantages-item-photo, .advantages-item-bridge-photo {
- width: 800px;
- display: block;
- margin: 0 auto;
- height: 385px;
-}
-
 
 .advantages-item-city, .advantages-item-bridge {
-  font-family: inherit;
-  background-color: #82B3D3;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 100%;
 }
+.item-city-text, .item-bridge-text {
+  background-color: #82B3D3;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 102px;
+  padding-bottom: 102px;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin: 0;
+  width: 100%;
+}
+.advantages-img {
+  width: 100%px;
+  height: 385px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
 .advantages-item-square, .advantages-item-tourist, .welcome-advantages-item-blue {
   background-color: rgba(131, 179, 211, 12%)
 }
 .advantages-item-road {
   background-color: rgba(131, 179, 211, 20%)
 }
-.advantages-img {
-  width: auto;
-  height: auto;
+
+.advantages-list-title {
+  font-size: 24px;
+  line-height: 120%; /* 28px */
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.advantages-square-title {
+  font-size: 24px;
+  line-height: 120%; /* 28px */
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
 }
 .advantages-title, .welcome-title, booking-title, .newsletter-title {
-  font-family: inherit;
   font-size: 30px;
   line-height: 120%; /* 36px */
   font-weight: 700;
@@ -424,15 +430,16 @@ margin: 0 auto;
 margin-top: 40px;
 margin-bottom: 40px;
 }
-.footer-social {
-  list-style-type: none;
-  width: 142px;
-  margin-right: 41.5px;
-}
 .social-container {
   display: flex;
   margin: 0 auto;
 }
+.footer-social {
+  list-style-type: none;
+  width: 142px;
+  margin: 0;
+}
+
 .footer-social-list {
   list-style-type: none;
   display: flex;
@@ -443,6 +450,7 @@ margin-bottom: 40px;
   font-family: "PT Sans", sans-serif;
   font-size: 40px;
   line-height: 100%; /* 40px */
+  font-style: normal;
 font-weight: 400;
   text-align: center;
   text-transform: uppercase;
@@ -450,10 +458,7 @@ font-weight: 400;
   text-decoration: none;
  /* width: 331px; */
 }
-.footer-logo {
-max-width: 115px;
-margin-left: 41.5px;
-}
+
 /*
 .htmlacademy {
   display: block;
