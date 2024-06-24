@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles_exp.css">
     <title>Гостиницы города Седона</title>
   </head>
 
@@ -23,7 +23,7 @@
                 <a class="navigation-link" href="about.html">О Седоне</a>
               </li>
               <li class="navigation-item-pages">
-                <a class="navigation-link" href="catalog.html">Гостиницы</a>
+                <a class="navigation-link" href="catalog_exp.html">Гостиницы</a>
               </li>
             </ul>
           </div>
@@ -42,9 +42,9 @@
                 <!-- <span class="notification-badge">12</span>-->
               </a>
             </li>
-            <div class="navigation-item navigation-item-button">
+            <li class="navigation-item navigation-item-button">
               <a class="header-button" href="#search">Хочу сюда!</a>
-            </div>
+            </li>
           </ul>
         </nav>
       </header>
@@ -118,12 +118,17 @@
 
                 <fieldset class="filter-fieldset-price">
                   <legend class="filter-price">Стоимость, ₽</legend>
-                  <label class="set-price"><span class="price-from">от</span>
+                  <div class="buttons-from-to">
                     <input class="set-price-min" type="number" name="min-price" value="0">
-                  </label>
-                  <label class="set-price"><span class="price-to">до</span>
+                    <span class="price-from">от</span>
                     <input class="set-price-max" type="number" name="max-price" value="9000">
-                  </label>
+                    <span class="price-to">до</span>
+                  </div>
+                  <div class="range-container">
+                      <input class="range-price-from" type="range" min="0" max="9000" step="1">
+                      <span class="left-range"></span>
+                      <span class="right-range"></span>
+</div>
                 </fieldset>
                 <div class="filter-fieldset-button">
                   <button class="button button-apply" type="submit">Применить</button>
@@ -250,48 +255,34 @@
                 </div>
               </li>
             </ul>
-            <ul class="pagination">
-              <!--<li class="pagination-item">
-            <a class="pagination-link pagination-prev pagination-disabled">
-              <span class="visually-hidden">Предыдущая страница</span>
-            </a>
-          </li>-->
-
+            <ul class="pagination-list">
               <li class="pagination-item-current">
                 <a class="pagination-link-current">1</a>
               </li>
-
-
               <li class="pagination-item">
                 <a class="pagination-link" href="#">2</a>
               </li>
-
-
               <li class="pagination-item">
                 <a class="pagination-link" href="#">3</a>
               </li>
-
-
               <li class="pagination-item">
                 <a class="pagination-link" href="#">4</a>
               </li>
-
-
-              <li class="pagination-item">
+              <li class="pagination-item-none">
                 <span class="page-none">...</span>
               </li>
-
               <li class="pagination-item">
                 <a class="pagination-link" href="#">10</a>
               </li>
-
             </ul>
-          </section>
+            </section>
           <section class="newsletter-hotels">
+            <div class="newsletter-container">
             <h2 class="newsletter-hotels-title">Подпишитесь на рассылку</h2>
-            <p class="newsletter-hotels-description">Только полезная информация и никакого спама,<br>честное
+            <p class="newsletter-hotels-description">Только полезная информация и никакого спама, честное
               бойскаутское!
             </p>
+          </div>
             <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
               <!--<label for="newsletter-email"></label>-->
               <input class="field" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш email"
@@ -302,40 +293,35 @@
         </div>
       </main>
 
-
       <footer class="page-footer">
         <div class="page-footer-container">
           <section class="footer-social">
             <h2 class="visually-hidden">Контакты</h2>
-            <div class="social-container">
-              <ul class="footer-social-list">
-                <li class="social-item-vk">
-                  <a class="footer-button-vk" href="https://vk.com/htmlacademy">
-                    <span class="visually-hidden">Вконтакте</span>
-                    <img src="images/vk.svg" width="24" height="14" alt="Вконтакте">
-                  </a>
-                </li>
-                <li class="social-item-telegram">
-                  <a class="footer-button-telegram" href="https://htmlacademy.t.me/">
-                    <span class="visually-hidden">Телеграм</span>
-                    <img src="images/telegram.svg" width="18" height="16" alt="Телеграм">
-                  </a>
-                </li>
-                <li class="social-item-youtube">
-                  <a class="footer-button-youtube" href="https://www.youtube.com/@HTMLAcademyTV">
-                    <span class="visually-hidden">YouTube</span>
-                    <img src="images/youtube.svg" width="22" height="17" alt="YouTube">
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <ul class="footer-social-list">
+              <li class="social-item-vk">
+                <a class="footer-button-vk" href="https://vk.com/htmlacademy">
+                  <span class="visually-hidden">Вконтакте</span>
+                  <img src="images/vk.svg" width="24" height="14" alt="Вконтакте">
+                </a>
+              </li>
+              <li class="social-item-telegram">
+                <a class="footer-button-telegram" href="https://htmlacademy.t.me/">
+                  <span class="visually-hidden">Телеграм</span>
+                  <img src="images/telegram.svg" width="18" height="16" alt="Телеграм">
+                </a>
+              </li>
+              <li class="social-item-youtube">
+                <a class="footer-button-youtube" href="https://www.youtube.com/@HTMLAcademyTV">
+                  <span class="visually-hidden">YouTube</span>
+                  <img src="images/youtube.svg" width="22" height="17" alt="YouTube">
+                </a>
+              </li>
+            </ul>
           </section>
-
           <section class="footer-phone">
-            <span class="visually-hidden">Телефон для связи</span></li>
+            <span class="visually-hidden">Телефон для связи</span>
             <a class="footer-phone-link" href="tel:+78128121212">+7 (812) 812-12-12</a>
           </section>
-
           <section class="footer-logo">
             <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss"><img src="images/logo-footer.svg"
                 width="115" height="33" alt="Разработано в HTML Academy">
@@ -345,5 +331,4 @@
       </footer>
     </div>
   </body>
-
 </html>
