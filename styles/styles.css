@@ -304,8 +304,8 @@ background-size: cover;
 }
 .advantages-item-square, .advantages-item-road, .advantages-item-tourist {
   text-align: center;
-  padding-top: 112.5px;
-  padding-bottom: 112.5px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   padding-left: 85px;
   padding-right: 85px;
   margin: 0;
@@ -581,8 +581,8 @@ font-weight: 400;
   background-repeat: no-repeat;*/
   width: 22px;
   height: 17px;
-  padding-left: 11.67px;
-  padding-right: 11.67px;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 13px;
   padding-bottom: 13px;
 }
@@ -592,8 +592,8 @@ font-weight: 400;
   background-repeat: no-repeat;*/
   width: auto;
   height: auto;
-  padding-left: 11.67px;
-  padding-right: 11.67px;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 13px;
   padding-bottom: 13px;
 }
@@ -603,8 +603,8 @@ font-weight: 400;
   background-repeat: no-repeat;*/
   width: auto;
   height: auto;
-  padding-left: 11.67px;
-  padding-right: 11.67px;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 13px;
   padding-bottom: 13px;
 }
