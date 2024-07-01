@@ -958,7 +958,8 @@ display: flex;
 }
 .hotel-card {
   display: grid;
-  grid-template-columns: 140px 140px;
+  grid-template-columns: repeat(2, 140px);
+  grid-template-rows: auto repeat(3, min-content);
   gap: 16px 20px;
   padding: 20px;
   border: 1px solid #e6e6e6;
