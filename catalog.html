@@ -17,7 +17,7 @@
           <div class="navigation-box">
             <ul class="navigation-list navigation-list-pages">
               <li class="navigation-item-pages item-current">
-                <a class="navigation-link" href="index.html" aria-current="page"><span>Главная</span></a>
+                <a class="navigation-link" href="index.html" aria-current="page">Главная</a>
               </li>
               <li class="navigation-item-pages">
                 <a class="navigation-link" href="about.html">О Седоне</a>
@@ -54,11 +54,13 @@
             <section class="header-filter-text">
               <h1 class="header-filter-title">Гостиницы Седоны</h1>
               <ul class="breadcrumbs-list">
-                <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
+                <li class="breadcrumbs-item breadcrumbs-home">
+                  <a class="breadcrumbs-link-icon" href="index.html"><span class="visually-hidden">Главная</span></a>
+<img src="images/index-home.svg" width="13" height="15" alt="Переход на главную страницу">
                 </li>
-                <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link">Гостиницы</a>
+                <li class="breadcrumbs-item breadcrumbs-arrow arrow-left"><img class="arrow-breadcrumbs" src="images/arrow-breadcrumbs.svg" width="6" height="10"</li>
+                <li class="breadcrumbs-item breadcrumbs-hotels">
+                  <a class="breadcrumbs-link-text">Гостиницы</a>
                 </li>
               </ul>
             </section>
@@ -96,20 +98,20 @@
                   <legend class="catalog-filter-title">Тип Жилья</legend>
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
-                      <label class="control">
-                        <input class="control-input" type="radio" name="flat-group" value="hotel" checked>
+                      <label class="control-radio">
+                        <input class="control-input-radio" type="radio" name="flat-group" value="hotel" checked>
                         Гостиница
                       </label>
                     </li>
                     <li class="catalog-filter-item">
-                      <label class="control">
-                        <input class="control-input" type="radio" name="flat-group" value="motel">
+                      <label class="control-radio">
+                        <input class="control-input-radio" type="radio" name="flat-group" value="motel">
                         Мотель
                       </label>
                     </li>
                     <li class="catalog-filter-item">
-                      <label class="control">
-                        <input class="control-input" type="radio" name="flat-group" value="apartment">
+                      <label class="control-radio">
+                        <input class="control-input-radio" type="radio" name="flat-group" value="apartment">
                         Апартаменты
                       </label>
                     </li>
@@ -119,9 +121,9 @@
                 <fieldset class="filter-fieldset-price">
                   <legend class="filter-price">Стоимость, ₽</legend>
                   <div class="buttons-from-to">
-                    <input class="set-price-min" type="number" name="min-price" value="0">
+                    <input class="set-price-min" type="number" name="min-price" placeholder="0">
                     <span class="price-from">от</span>
-                    <input class="set-price-max" type="number" name="max-price" value="9000">
+                    <input class="set-price-max" type="number" name="max-price" placeholder="9000">
                     <span class="price-to">до</span>
                   </div>
                   <div class="range-container">
