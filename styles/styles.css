@@ -312,7 +312,7 @@ margin: 0;
 }
 
 .navigation-link-search {
-  background-image: url("../images/search.svg");
+  background-image: url("images/search.svg");
   background-repeat: no-repeat;
   background-position: center;
   min-width: 44px;
@@ -320,7 +320,7 @@ margin: 0;
 }
 
 .navigation-link-favorites {
-  background-image: url("../images/heart.svg");
+  background-image: url("images/favorite.svg");
   background-repeat: no-repeat;
   background-position: center;
   min-width: 44px;
