@@ -68,7 +68,7 @@ body {
   border-radius: 4px;
   padding: 8px 50px;
   width: 376px;
-  height: 52px;
+  min-height: 52px;
   border: none;
   cursor: pointer;
 }
@@ -103,7 +103,7 @@ button:disabled {
 .header-button {
   display: block;
   width: 160px;
-  height: 36px;
+  min-height: 36px;
   font-family: inherit;
   font-size: 16px;
   line-height: 125%;
@@ -116,9 +116,6 @@ button:disabled {
   border-radius: 4px;
   padding: 8px 34px;
   border: none;
-  /*
-  margin-top: 14px;
-  margin-right: 70px; */
 }
 
 .header-button:hover {
@@ -919,7 +916,7 @@ button:disabled {
   border-radius: 4px 0 0 4px;
   padding: 14px 20px;
   width: 452px;
-  height: 52px;
+  min-height: 52px;
   border: none;
   background: #F2F2F2;
 
@@ -1204,6 +1201,7 @@ button:disabled {
   align-items: center;
   text-decoration: none;
   padding-right: 10px;
+  pointer-events: none;
 }
 
 .breadcrumbs-home {
@@ -1315,26 +1313,35 @@ button:disabled {
   background-color: rgba(255, 255, 255, 0.6);
   transition: all 0.3s ease-out;
 }
+/*
+.control:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: 3px solid #83B3D3;
+  outline-offset: 3px solid #83B3D3;
+}
 
 .control:focus .control-mark {
   background-color: rgba(255, 255, 255, 1);
-  outline: 3px solid #82B3D3;
+  outline: 3px solid #83B3D3;
+  outline-offset: 3px solid #83B3D3;
 }
-
+*/
 .control:focus:not(:focus-visible) .control-mark {
   outline: none;
 }
-
+/*
 .control:focus-visible .control-mark {
   outline: 3px solid #83B3D3;
+  outline-offset: 3px solid #83B3D3;
 }
-
+*/
 .control:active .control-mark {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .control-input:disabled + .control-mark {
   background-color: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
@@ -1462,7 +1469,7 @@ button:disabled {
   color: #000000;
   border: none;
   padding-left: 20px;
-  padding-right: 0;
+  padding-right: 40px;
   padding-top: 12px;
   padding-bottom: 12px;
   margin: 0;
@@ -1487,18 +1494,8 @@ button:disabled {
   margin: 0;
 }
 
-.set-price-min:focus {
-  outline: 3px solid #83B3D3;
-  outline-offset: -3px;
-}
-
 .set-price-min:focus:not(:focus-visible) {
   outline: none;
-}
-
-.set-price-min:focus-visible {
-  outline: 3px solid #83B3D3;
-  outline-offset: -3px;
 }
 
 .set-price-min:active {
@@ -1522,19 +1519,9 @@ button:disabled {
   font-weight: 700;
 }
 
-.set-price-max:focus {
-  outline: 3px solid #83B3D3;
-  outline-offset: -3px;
-}
-
 .set-price-max:focus:not(:focus-visible) {
   outline: none;
   border: none;
-}
-
-.set-price-max:focus-visible {
-  outline: 3px solid #83B3D3;
-  outline-offset: -3px;
 }
 
 .set-price-max:disabled {
@@ -1545,13 +1532,23 @@ button:disabled {
 }
 
 input.set-price-min::placeholder {
-  font-weight: 700;
+  font: inherit;
   color: #000000;
+  opacity: 0.6;
+  line-height: 133%;
+  /* 24px */
+  font-weight: 400;
+  font-size: 18px;
 }
 
 input.set-price-max::placeholder {
-  font-weight: 700;
+  font: inherit;
   color: #000000;
+  opacity: 0.6;
+  line-height: 133%;
+  /* 24px */
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .price-from {
@@ -1683,7 +1680,7 @@ input.set-price-max::placeholder {
 }
 
 .toggle-max:active {
-  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 7px 15 0 rgba(0, 0, 0, 0.4);
   border: 2px solid #83B3D3;
   background-color: #ffffff;
 }
@@ -1824,7 +1821,7 @@ width: 288px;*/
 }
 
 .button-reset:focus {
-  border: 3px solid #83B3D3;
+ /* border: 3px solid #83B3D3;*/
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0);
 }
@@ -1833,13 +1830,13 @@ width: 288px;*/
   outline: none;
   background-color: rgba(255, 255, 255, 0);
 }
-
+/*
 .button-reset:focus-visible {
   border: 3px solid #83B3D3;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0);
 }
-
+*/
 .button-reset:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: rgba(255, 255, 255, 0);
@@ -2407,9 +2404,9 @@ select:disabled {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-/*.modal-container-close {
+.modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: relative;
@@ -2422,8 +2419,6 @@ select:disabled {
 .modal-booking {
   width: 717px;
   min-height: 576px;
-  /*  top: 396px;
-  left: 281px;*/
   padding: 64px 70px 64px 70px;
   border-radius: 30px;
 }
@@ -2437,10 +2432,12 @@ select:disabled {
   height: 52px;
   background-color: #ffffff;
   border: none;
+  border-radius: 50%;
   /*background-image: url("../images/modal-close.svg");*/
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  padding-left: 40px;
 }
 
 .close-icon {
@@ -2477,6 +2474,7 @@ select:disabled {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  max-width: 490px;
 }
 
 .all-modal-content {
@@ -2571,7 +2569,6 @@ select:disabled {
 
 .checkin-field:focus {
   background-color: #e5e5e5;
-  outline: 2px solid #82b3d3;
 }
 
 .checkin-field:active {
@@ -2585,7 +2582,6 @@ select:disabled {
 
 .checkout-field:focus {
   background-color: #e5e5e5;
-  outline: 2px solid #82b3d3;
 }
 
 .checkout-field:active {
@@ -2625,7 +2621,7 @@ select:disabled {
 
 .adult-field:focus {
   background-color: #e5e5e5;
-  outline: 2px solid #82b3d3;
+  /*outline: 2px solid #82b3d3;*/
 }
 
 .adult-field:active {
@@ -2661,7 +2657,7 @@ select:disabled {
 
 .kids-field:focus {
   background-color: #e5e5e5;
-  outline: 2px solid #82b3d3;
+  /*outline: 2px solid #82b3d3;*/
 }
 
 .kids-field:active {
@@ -2929,7 +2925,6 @@ select:disabled {
   border-radius: 10px;
   width: 577px;
   min-height: 60px;
-  padding: 18px 77px;
   font: inherit;
   color: #ffffff;
   line-height: 120%;
@@ -2981,6 +2976,7 @@ select:disabled {
   display: block;
   background-color: rgba(255, 255, 255, 0);
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .tooltip-toggle:hover {
