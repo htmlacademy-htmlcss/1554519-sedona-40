@@ -1683,7 +1683,7 @@ input.set-price-max::placeholder {
 }
 
 .toggle-max:active {
-  box-shadow: 0 7px 15 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.4);
   border: 2px solid #83B3D3;
   background-color: #ffffff;
 }
