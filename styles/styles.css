@@ -3043,7 +3043,7 @@ select:disabled {
   /* 86 */
   transform: translateX(-50%);
   z-index: 1;
-  /*display: none;*/
+  display: none;
 }
 
 .tooltip-toggle:hover + .tooltip-text,
