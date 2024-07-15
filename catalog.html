@@ -73,7 +73,7 @@
                   </a>
                 </li>
                 <li class="breadcrumbs-item breadcrumbs-hotels">
-                  <a class="breadcrumbs-link-text">Гостиницы</a>
+                  <a href="catalog.html" class="breadcrumbs-link-text">Гостиницы</a>
                 </li>
               </ul>
             </section>
@@ -115,25 +115,23 @@
                     <legend class="catalog-filter-title">Тип Жилья:</legend>
                     <ul class="catalog-filter-list">
                       <li class="catalog-filter-item">
-                        <label class="control-radio">
-                          <input class="visually-hidden control-input-radio" type="radio" name="flat-group"
-                            value="hotel" checked>
+                        <label class="control">
+                          <input class="visually-hidden control-input" type="radio" name="flat-group" value="hotel"
+                            checked>
                           <span class="control-mark"></span>
                           <span class="control-label">Гостиница</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
-                        <label class="control-radio">
-                          <input class="visually-hidden control-input-radio" type="radio" name="flat-group"
-                            value="motel">
+                        <label class="control">
+                          <input class="visually-hidden control-input" type="radio" name="flat-group" value="motel">
                           <span class="control-mark"></span>
                           <span class="control-label">Мотель</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
-                        <label class="control-radio">
-                          <input class="visually-hidden control-input-radio" type="radio" name="flat-group"
-                            value="apartment">
+                        <label class="control">
+                          <input class="visually-hidden control-input" type="radio" name="flat-group" value="apartment">
                           <span class="control-mark"></span>
                           <span class="control-label">Апартаменты</span>
                         </label>
@@ -142,17 +140,20 @@
                   </fieldset>
                   <div class="range-common">
                     <fieldset class="filter-fieldset-price">
-                      <legend class="filter-price">Стоимость, ₽</legend>
+                      <legend class="filter-price">Стоимость, ₽:</legend>
                       <div class="range">
                         <div class="buttons-from-to">
                           <label class="price-from" for="min-price">от</label>
-                          <input class="set-price-min" type="number" name="min-price" placeholder="Цена" value="0">
-                          <input class="set-price-max" type="number" name="max-price" placeholder="Цена" value="9000">
+                          <input class="set-price-min" type="number" name="min-price" id="min-price" placeholder="Цена"
+                            value="0">
+                          <input class="set-price-max" type="number" name="max-price" id="max-price" placeholder="Цена"
+                            value="9000">
                           <label class="price-to" for="max-price">до</label>
                         </div>
 
                         <div class="range-scale">
                           <div class="range-bar" style="left: 10px; width: 206px">
+
                             <button class="range-toggle toggle-min" type="button">
                               <span class="visually-hidden">Изменить минимальную цену</span>
                             </button>
@@ -182,7 +183,8 @@
                 <option value="expensive">Сначала дорогие</option>
               </select>
               <div class="buttons-list">
-                <a class="button button-filter-checked" href="catalog.html?view=tile">
+                <a class="button button-filter button-filter-checked" href="catalog.html?view=tile">
+                  <span class="visually-hidden">Просмотр отелей в виде плитки</span>
                   <svg class="icon-filter" aria-hidden="true" focusable="false" width="16" height="14"
                     viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#a)" fill="#000">
@@ -195,7 +197,9 @@
                     </defs>
                   </svg>
                 </a>
+
                 <a class="button button-filter" href="catalog.html?view=card">
+                  <span class="visually-hidden">Просмотр отелей в виде карточек</span>
                   <svg class="icon-filter" aria-hidden="true" focusable="false" width="16" height="14"
                     viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#a)" fill="#000">
@@ -208,7 +212,9 @@
                     </defs>
                   </svg>
                 </a>
+
                 <a class="button button-filter" href="catalog.html?view=list">
+                  <span class="visually-hidden">Просмотр отелей в виде слайд-шоу</span>
                   <svg class="icon-filter" aria-hidden="true" focusable="false" width="16" height="14"
                     viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#a)">
@@ -410,6 +416,7 @@
           </section>
           <section class="footer-logo">
             <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss">
+              <span class="visually-hidden">Логотип компании, которая сделала сайт</span>
               <svg class="footer-icon-academy" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
                 width="115" height="34">
                 <path
