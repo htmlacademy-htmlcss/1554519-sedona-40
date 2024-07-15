@@ -4,7 +4,7 @@
 	--texts-hover: #756157;
 	--texts-active: rgba(117, 97, 87, 0.3);
 	--texts-texts-basic: #000000;
-	--texts-background-deafault: #fff;
+	--texts-background-deafault: #ffffff;
 	--texts-background-small: rgba(255, 255, 255, 0.3);
 	--texts-background-hover: rgba(255, 255, 255, 0.6);
 	--texts-background-active: rgba(255, 255, 255, 0.3);
@@ -2994,7 +2994,7 @@ select:disabled {
   /* 20px */
   font-weight: 400;
   text-transform: none;
-  padding: 18px 20px;
+  padding: 20px 22px;
   border-radius: 10px;
   /* display: block; */
   width: 256px;
