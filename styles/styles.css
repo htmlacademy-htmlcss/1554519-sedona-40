@@ -1946,11 +1946,12 @@ input.set-price-max::placeholder {
 }
 
 .select-control:focus {
-  border: 2px solid #68a2ca;
+  outline: 2px solid #68a2ca;
 }
 
 .select-control:active {
   border: 2px solid #e5e5e5;
+  outline: 2px solid #e5e5e5;
 }
 
 .buttons-list {
