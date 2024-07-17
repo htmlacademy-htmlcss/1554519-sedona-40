@@ -1521,6 +1521,10 @@ body {
   margin: 0;
 }
 
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
 .set-price-min::-webkit-outer-spin-button,
 .set-price-min::-webkit-inner-spin-button {
   appearance: none;
