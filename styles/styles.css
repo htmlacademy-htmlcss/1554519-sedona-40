@@ -1448,6 +1448,7 @@ body {
   padding: 0;
   margin-right: 70px;
   cursor: pointer;
+  border-width: 0;
 }
 
 .catalog-filter-group-flat {
@@ -1455,6 +1456,7 @@ body {
   margin: 0;
   margin-right: 70px;
   padding: 0;
+  border-width: 0;
 }
 
 .catalog-filter-title {
@@ -1746,11 +1748,6 @@ input.set-price-max::placeholder {
   margin-bottom: 32px;
 }
 
-fieldset {
-  border-width: 0;
-}
-
-
 .price-from,
 .price-to {
   color: #000000;
@@ -1772,6 +1769,7 @@ fieldset {
   gap: 2px;
   margin: 0;
   padding: 0;
+  border-width: 0;
 }
 
 .filter-fieldset-button {
