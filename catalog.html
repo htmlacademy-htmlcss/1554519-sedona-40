@@ -78,7 +78,7 @@
               </ul>
             </section>
 
-            <section class="header-filter">
+            <section class="header-filter" data-test="filter">
               <h2 class="visually-hidden">Фильтры</h2>
               <div class="form-choice">
                 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -174,8 +174,8 @@
             </section>
           </div>
 
-          <section class="results">
-            <div class="show">
+          <section class="results" data-test="catalog">
+          <!-- Блок 1--> <div class="show">
               <h3 class="found-title">Найдено гостиниц: <span class="found-number">38</span></h3>
               <select class="select-control" aria-label="Сортировка">
                 <option value="popular">Сначала популярные</option>
@@ -230,7 +230,7 @@
                 </a>
               </div>
             </div>
-
+<!-- Блок 2 -->
             <ul class="hotel-list">
               <li class="hotel-card">
                 <div class="hotel-card-lead">
@@ -335,8 +335,15 @@
                 </div>
               </li>
             </ul>
+
+            <!-- Блок 3 линия -->
+<div class="line-container">
+  <hr class="line">
+</div>
+
+                 <!-- Блок 4 пагинация -->
             <ul class="pagination-list">
-              <li class="pagination-item-current">
+              <li class="pagination-item pagination-item-current">
                 <a class="pagination-link-current">1</a>
               </li>
               <li class="pagination-item">
@@ -356,7 +363,9 @@
               </li>
             </ul>
           </section>
-          <section class="newsletter-hotels">
+
+
+          <section class="newsletter-hotels" data-test="subscribe">
             <div class="newsletter-container">
               <h2 class="newsletter-hotels-title">Подпишитесь на рассылку</h2>
               <p class="newsletter-hotels-description">Только полезная информация и никакого спама, честное
@@ -372,7 +381,7 @@
         </div>
       </main>
 
-      <footer class="page-footer">
+      <footer class="page-footer" data-test="footer" >
         <div class="page-footer-container">
           <section class="footer-social">
             <h2 class="visually-hidden">Контакты</h2>
