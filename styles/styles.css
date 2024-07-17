@@ -1521,8 +1521,9 @@ body {
   margin: 0;
 }
 
-input[type='number'] {
-    -moz-appearance: textfield;
+.set-price-max,
+.set-price-min {
+  -moz-appearance: textfield;
 }
 
 .set-price-min::-webkit-outer-spin-button,
@@ -2719,6 +2720,11 @@ input.set-price-max::placeholder {
 .kids-field::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+
+.kids-field, 
+.adult-field {
+  -moz-appearance: textfield;
 }
 
 .adults-buttons {
