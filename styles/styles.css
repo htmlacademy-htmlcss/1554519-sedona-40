@@ -2490,7 +2490,7 @@ input.set-price-max::placeholder {
 
 .modal-close-button:focus {
   background-color: #e6e6e6;
-  outline: 3px solid #82b3d3;
+ /* outline: 3px solid #82b3d3; */
 }
 
 .modal-close-button:active {
