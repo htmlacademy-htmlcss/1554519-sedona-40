@@ -838,6 +838,7 @@ body {
   display: block;
   width: 75px;
   height: 72px;
+  margin: auto;
   margin-bottom: 30px;
   background-image: url("../images/advantage-icon-home.svg");
 }
@@ -847,6 +848,7 @@ body {
   display: block;
   width: 75px;
   height: 72px;
+  margin: auto;
   margin-bottom: 30px;
   background-image: url("../images/advantage-icon-burger.svg");
 }
@@ -860,7 +862,7 @@ body {
   display: block;
   width: 75px;
   height: 76px;
-  margin: 0 auto;
+  margin: auto;
   background-position: center;
   margin-bottom: 30px;
   background-image: url("../images/advantage-icon-gift.svg");
