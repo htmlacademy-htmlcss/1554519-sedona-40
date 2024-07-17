@@ -1929,10 +1929,6 @@ input.set-price-max::placeholder {
   transition: all 0.3s ease-out;
 }
 
-.select-control:focus {
-  border: 2px solid #68a2ca;
-}
-
 .select-control:focus:not(:focus-visible) {
   border: none;
 }
@@ -1941,17 +1937,13 @@ input.set-price-max::placeholder {
   border: 2px solid #68a2ca;
 }
 
-.select-control:disabled {
-  border: 2px solid rgba(0, 0, 0, 0.3);
-}
-
-.select-control:focus {
-  outline: 2px solid #68a2ca;
-}
-
 .select-control:active {
   border: 2px solid #e5e5e5;
   outline: 2px solid #e5e5e5;
+}
+
+.select-control:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .buttons-list {
