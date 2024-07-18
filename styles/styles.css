@@ -2313,6 +2313,7 @@ input.set-price-max::placeholder {
   display: grid;
   grid-template-columns: repeat(2, 140px);
   gap: 20px;
+  margin-top: 16px;
 }
 
 /* Пагинация */
