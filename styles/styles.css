@@ -66,7 +66,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 117%;
-  /* 21px */
   color: var(--texts-second);
   overflow-x: hidden;
   background-color: #f2f2f2;
@@ -98,7 +97,6 @@ body {
   font-family: inherit;
   font-size: 20px;
   line-height: 180%;
-  /* 36px */
   font-weight: 700;
   color: #ffffff;
   background-color: var(--texts-hover);
@@ -146,7 +144,6 @@ body {
   font-family: inherit;
   font-size: 16px;
   line-height: 125%;
-  /* 20px */
   font-weight: 700;
   color: #ffffff;
   background-color: var(--texts-hover);
@@ -191,7 +188,6 @@ body {
   font-family: inherit;
   font-size: 20px;
   line-height: 180%;
-  /* 36px */
   font-weight: 700;
   color: #ffffff;
   background-color: var(--texts-hover);
@@ -349,7 +345,6 @@ body {
   padding: 20px 16px;
   font-size: 20px;
   line-height: 120%;
-  /* 24px */
   font-weight: 700;
   text-align: center;
   color: #000000;
@@ -648,7 +643,7 @@ body {
 .advantages-list-title {
   margin: 0;
   font-size: 24px;
-  line-height: 120%; /* 28px */
+  line-height: 120%;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -672,7 +667,7 @@ body {
   text-align: center;
   color: #000000;
   font-size: 24px;
-  line-height: 120%; /* 28px */
+  line-height: 120%;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
@@ -686,7 +681,6 @@ body {
   color: #000000;
   font-size: 30px;
   line-height: 120%;
-  /* 36px */
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -705,7 +699,6 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 118%;
-  /* 26px */
   text-align: center;
   hyphens: auto;
   margin: 0;
@@ -773,7 +766,6 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 118%;
-  /* 26px */
   text-align: center;
 }
 
@@ -781,7 +773,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 117%;
-  /* 28px */
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -796,7 +787,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 117%;
-  /* 21px */
   font-weight: 400;
   display: block;
   margin: 0;
@@ -871,7 +861,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 120%;
-  /* 36px */
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -884,7 +873,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 118%;
-  /* 26px */
   font-weight: 400;
   text-align: center;
   color: var(--texts-second);
@@ -925,7 +913,6 @@ body {
   color: #ffffff;
   font-size: 30px;
   line-height: 120%;
-  /* 36px */
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -940,7 +927,6 @@ body {
   color: #ffffff;
   font-size: 22px;
   line-height: 118%;
-  /* 26px */
   font-weight: 400;
   text-align: center;
   hyphens: auto;
@@ -958,7 +944,6 @@ body {
   font: inherit;
   color: #000000;
   line-height: 133%;
-  /* 24px */
   font-weight: 700;
   font-size: 18px;
   border-radius: 4px 0 0 4px;
@@ -974,7 +959,6 @@ body {
   color: #000000;
   opacity: 0.6;
   line-height: 133%;
-  /* 24px */
   font-weight: 400;
   font-size: 18px;
 }
@@ -1006,7 +990,6 @@ body {
   color: #000000;
   opacity: 0.6;
   line-height: 133%;
-  /* 24px */
   font-weight: 400;
   font-size: 18px;
 }
@@ -1162,7 +1145,6 @@ body {
   flex-wrap: wrap;
   font-size: 40px;
   line-height: 100%;
-  /* 40px */
   font-style: normal;
   font-weight: 400;
   text-align: center;
@@ -1212,7 +1194,6 @@ body {
   color: #ffffff;
   font-size: 60px;
   line-height: 130%;
-  /* 78px */
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -1242,7 +1223,6 @@ body {
   color: #ffffff;
   font-size: 16px;
   line-height: 131%;
-  /* 21px */
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -1457,7 +1437,6 @@ body {
   color: #ffffff;
   font-size: 20px;
   line-height: 120%;
-  /* 26px */
   font-weight: 700;
   margin-bottom: 32px;
   display: block;
@@ -1491,7 +1470,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 133%;
-  /* 24px */
   font-weight: 700;
   background-color: #ffffff;
   color: #000000;
@@ -1567,7 +1545,6 @@ input.set-price-min::placeholder {
   color: #000000;
   opacity: 0.6;
   line-height: 133%;
-  /* 24px */
   font-weight: 400;
   font-size: 18px;
 }
@@ -1577,7 +1554,6 @@ input.set-price-max::placeholder {
   color: #000000;
   opacity: 0.6;
   line-height: 133%;
-  /* 24px */
   font-weight: 400;
   font-size: 18px;
 }
@@ -1730,7 +1706,6 @@ input.set-price-max::placeholder {
   color: #ffffff;
   font-size: 18px;
   line-height: 128%;
-  /* 23px */
   font-weight: 400;
 }
 
@@ -1739,7 +1714,6 @@ input.set-price-max::placeholder {
   color: #ffffff;
   font-size: 20px;
   line-height: 120%;
-  /* 26px */
   font-weight: 700;
   padding: 0;
   margin: 0;
@@ -1753,7 +1727,6 @@ input.set-price-max::placeholder {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 133%;
-  /* 24px */
   font-weight: 400;
 }
 
@@ -1793,7 +1766,6 @@ input.set-price-max::placeholder {
   font-family: inherit;
   font-size: 16px;
   line-height: 125%;
-  /* 20px */
   text-decoration: none;
   font-weight: 700;
 }
@@ -1839,7 +1811,6 @@ input.set-price-max::placeholder {
   font-family: inherit;
   font-size: 16px;
   line-height: 125%;
-  /* 20px */
   text-decoration: none;
   font-weight: 700;
 }
@@ -1883,7 +1854,6 @@ input.set-price-max::placeholder {
   max-width: 340px;
   font-size: 30px;
   line-height: 120%;
-  /* 36px */
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -2070,7 +2040,6 @@ input.set-price-max::placeholder {
   color: #000000;
   font-size: 24px;
   line-height: 117%;
-  /* 28px */
   font-weight: 700;
   min-height: 29px;
 }
@@ -2180,7 +2149,6 @@ input.set-price-max::placeholder {
   border-radius: 4px;
   font-size: 16px;
   line-height: 125%;
-  /* 20px */
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
@@ -2336,7 +2304,7 @@ input.set-price-max::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
+  min-width: 60px;
   min-height: 60px;
   overflow: hidden;
 }
@@ -2351,7 +2319,7 @@ input.set-price-max::placeholder {
   color: #000000;
   border-radius: 4px;
   align-items: center;
-  width: 60px;
+  min-width: 60px;
   min-height: 60px;
 }
 
@@ -2359,15 +2327,17 @@ input.set-price-max::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  min-height: 60px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #82b3d3;
+  min-width: 60px;
+  height: 60px;
   color: #ffffff;
   font-size: 20px;
   line-height: 180%;
   text-decoration: none;
   font-weight: 700;
   text-align: center;
-  max-width: 50px;
   overflow: hidden;
 }
 
@@ -2409,7 +2379,6 @@ input.set-price-max::placeholder {
 .newsletter-hotels-title {
   font-size: 30px;
   line-height: 120%;
-  /* 36px */
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -2422,7 +2391,6 @@ input.set-price-max::placeholder {
   font-weight: 400;
   font-size: 22px;
   line-height: 118%;
-  /* 26px */
   text-align: center;
   color: var(--texts-second);
   margin: auto;
@@ -2450,14 +2418,7 @@ input.set-price-max::placeholder {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
-   /* display: block; */
 }
-
-/* Нужный код для возврата модалки к состоянию с кнопкой
-.modal-container-close {
-  display: none;
-}
-*/
 
 .modal-toggle:checked + .modal-inner-container {
   display: flex;
@@ -2514,7 +2475,6 @@ input.set-price-max::placeholder {
 
 .modal-close-button:focus {
   background-color: #e6e6e6;
- /* outline: 3px solid #82b3d3; */
 }
 
 .modal-close-button:active {
@@ -2529,7 +2489,6 @@ input.set-price-max::placeholder {
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 120%;
-  /* 36px */
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
@@ -2606,7 +2565,6 @@ input.set-price-max::placeholder {
   font: inherit;
   color: #000000;
   line-height: 133%;
-  /* 24px */
   font-weight: 700;
   font-size: 18px;
   border-radius: 4px;
@@ -2652,7 +2610,6 @@ input.set-price-max::placeholder {
   font: inherit;
   color: #000000;
   line-height: 133%;
-  /* 24px */
   font-weight: 700;
   font-size: 18px;
   width: 110px;
@@ -2687,7 +2644,6 @@ input.set-price-max::placeholder {
   font: inherit;
   color: #000000;
   line-height: 133%;
-  /* 24px */
   font-weight: 700;
   font-size: 18px;
   border-radius: 4px;
@@ -2998,7 +2954,6 @@ input.set-price-max::placeholder {
   color: #ffffff;
   font-size: 16px;
   line-height: 125%;
-  /* 20px */
   font-weight: 400;
   text-transform: none;
   padding: 20px 22px;
@@ -3009,7 +2964,6 @@ input.set-price-max::placeholder {
   margin-top: 16px;
   margin-right: 42px;
   left: 50%;
-  /* 86 */
   transform: translateX(-50%);
   z-index: 1;
   display: none;
